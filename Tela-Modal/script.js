@@ -16,6 +16,8 @@ function openText(evt, modulo) {
 
   // Show the current tab, and add an "active" class to the link that opened the tab
   document.getElementById(modulo).style.display = "block";
+  document.body.style.backgroundImage = "url('https://maxibyte.com.br/web/imagens/caixa/caixa1.jpg')"
+
   evt.currentTarget.className += " active";
 
 
